@@ -1,2 +1,1 @@
-pip install Pickle
-pip install Pillow
+tobigs 딥러닝 세미나 1주차 강의 자료
