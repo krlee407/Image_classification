@@ -1,0 +1,12 @@
+{
+    "label_dictionary" : {
+        "nonpoisonous" : 0,
+        "poisonous" : 1
+    },
+    "resizing" : [64, 64],
+    "train_class_size" : 1000,
+    "test_class_size" : 100,
+    "learning_rate" : 0.00001,
+    "num_of_iteration" : 6000,
+    "print_frequency" : 300
+}
