@@ -48,7 +48,6 @@ for content in contents_list:
         end_flag = False
         url = "http://images.google.com/images?q=" + content + '&btnG=검색&start=' + str(iter * 20) + '&sout=1'
         url = urllib.parse.quote(url, safe= ':/=&?') # url에 유니코드 적용하고, urllib.request.Request가 받아들일 수 있는 형태로 바꿈, safe는 변환하지 않을 문자들을 지정
-        print(url.encode('utf8'))
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'}) # 헤더가 없으면, bot으로 인식해서 http 403 에러 뜬다
 
         print_status(content, content_counter, len(contents_list), image_index, num_of_image)
