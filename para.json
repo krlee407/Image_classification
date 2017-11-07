@@ -7,6 +7,9 @@
     "train_class_size" : 1000,
     "test_class_size" : 100,
     "learning_rate" : 0.00001,
-    "num_of_iteration" : 2000,
-    "print_frequency" : 100
+    "num_of_iteration" : 5000,
+    "print_frequency" : 100,
+    "batch_size" : 20,
+    "epoch" : 20
+
 }
