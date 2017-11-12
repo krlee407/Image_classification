@@ -1,7 +1,8 @@
 {
     "label_dictionary" : {
-        "nonpoisonous" : 0,
-        "poisonous" : 1
+        "소혜" : 0,
+        "전소미" : 1,
+        "최유정" : 2
     },
     "resizing" : [32, 32],
     "train_class_size" : 1000,

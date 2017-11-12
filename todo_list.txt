@@ -1,0 +1,15 @@
+DataSet
+ - image -> data 변환 class화
+
+NN
+ - NN 완성 필요
+ - NN Class화 필요
+
+CNN
+ - batch 생성 시 임의 추출 -> 순차적 수출로 변경 필요
+ - dropout / BN 등 적용
+ - 다양한 Layer 적용
+ - Solver 클래스 내에 dataset 클래스 적용 검토
+
+Classfier
+ - 저장된 Model에 input 이미지를 받아 분류하는 py 파일 생성
