@@ -21,7 +21,6 @@ for epoch in range(epochs):
         val_xs, val_ys = data['test_image'], data['test_label']
 
         adam_opt.train(x_data=batch_xs, y_data=batch_ys, lr=1e-4)
-        val_loss = adam_opt.loss(x_data=val_xs, y_data=val_ys)
 
     if epoch % 10 == 0:
         adam_opt.print_information(data['train_image'], data['train_label'], data['test_image'], data['test_label'])
